@@ -1,0 +1,199 @@
+body
+{
+	font-family: arial;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+input, textarea, select
+{
+	padding: 10px;
+}
+
+.header
+{
+	margin-top: 20px;
+	
+	padding: 50px 20px 50px 300px;
+	
+	background-color: #CCC1DA;
+	background-image: url(../img/logo.png);
+	background-position : 50px;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	
+	color: #FFFFFF;
+	font-size: 30pt;
+	
+	text-transform: uppercase;
+}
+
+.header p
+{
+	margin: 0px;
+}
+
+.header .bigger
+{
+	font-size: 40pt;
+}
+
+.content
+{
+	margin: 20px;
+	text-align: center;
+}
+
+.content h1
+{
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #563B77;
+}
+
+.question
+{
+	margin: 20px;
+	padding: 10px;
+}
+
+.question:nth-child(2n)
+{
+	background-color: #EEEEEE;
+}
+
+#txtCodeHTML
+{
+    width: 300px;
+}
+
+#paragrapheQ1, #paragrapheQ5, #paragrapheQ6
+{
+    padding: 10px;
+    border: 1px solid #AAAAAA;
+    
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+box, .elementAgencable
+{
+    display: inline-block;
+    vertical-align: middle;
+    
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+box.clicable
+{
+    cursor: pointer;
+}
+
+box.active
+{
+    background-color: #24FF3C;
+}
+
+#agencable
+{
+    list-style-type: none;
+}
+
+.elementAgencable
+{
+    cursor: pointer;
+    width: 100px;
+}
+
+table
+{
+	margin: auto;
+}
+
+td, th
+{
+	padding: 10px;
+}
+
+th
+{
+	text-align: left;
+	
+	font-weight: normal;
+	
+	background-color: #CCC1DA;
+}
+
+tr:nth-child(2n)
+{
+	background-color: #ECE7F2;
+}
+
+tr:first-child th
+{
+	text-align: left;
+}
+
+#pictures
+{
+    width: 250px;
+}
+
+.picturesResult
+{
+    min-width: 250px;
+    min-height: 250px; 
+    
+    border: 1px solid #AAAAAA;
+}
+
+picture
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    margin-bottom: 10px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+    
+    border: 1px solid #AAAAAA;
+}
+
+.imgSpider
+{
+    background-image: url(../img/spider.jpg);
+}
+
+
+.imgCat
+{
+    background-image: url(../img/cat.jpg);
+}
+
+.imgForest
+{
+    background-image: url(../img/forest.jpg);
+}
+
+.imgNuclear
+{
+    background-image: url(../img/nuclear.jpg);
+}
+
+.imgLumia
+{
+    background-image: url(../img/lumia.jpg);
+}
+
+.imgIPhone
+{
+    background-image: url(../img/iPhone.jpg);
+}
+

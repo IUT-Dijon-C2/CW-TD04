@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Clients riches - TD 4</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="header">
+    <p>TD 4 - JavaScript</p>
+    <p class="bigger">JQuery - Ajax</p>
+  </div>
+
+  <div class="content">
+    <div class="question">
+      <h1>Question 1</h1>
+      <p>Gestion du D.O.M.</p>
+      <p><input type="text" id="txtCodeHTML" value="Un texte avec des <strong>balises HTML</strong>" readonly="readonly"></p>
+      <p><input type="button" id="btnText" value="text()"> <input type="button" id="btnHTML" value="html()"></p>
+      <p id="paragrapheQ1"></p>
+    </div>
+
+    <div class="question">
+      <h1>Question 2</h1>
+      <p>Gestion des classes CSS</p>
+      <box id="box1" class="clicable active">Boite 1</box>
+      <box id="box2" class="clicable">Boite 2</box>
+      <box id="box3" class="clicable">Boite 3</box>
+    </div>
+
+    <div class="question">
+      <h1>Question 3</h1>
+      <p>Gestion des champs d'un formulaire</p>
+
+      <box>
+        <p><input type="text" id="txtTexte" placeholder="Champ texte"></p>
+        <p><textarea id="txtTexteArea" placeholder="Texte multilignes"></textarea></p>
+        <p><input type="checkbox" id="chkCheckbox"><label for="chkCheckbox">Case à cocher</label></p>
+        <p>
+          <select id="cbListe">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+        </p>
+      </box>
+
+      <input type="button" id="btnDuppliquerFormulaire" value=">> Copier >>">
+
+      <box>
+        <p><input type="text" id="txtTexte2" placeholder="Champ texte"></p>
+        <p><textarea id="txtTexteArea2" placeholder="Texte multilignes"></textarea></p>
+        <p><input type="checkbox" id="chkCheckbox2"><label for="chkCheckbox2">Case à cocher</label></p>
+        <p>
+          <select id="cbListe2">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+        </p>
+      </box>
+
+    </div>
+
+
+
+    <div class="question">
+      <h1>Question 4</h1>
+      <p>Calcul de la moyenne</p>
+      <table id="tabSomme">
+        <thead>
+          <tr><th>Note</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>18</td></tr>
+          <tr><td>13</td></tr>
+          <tr><td>7</td></tr>
+          <tr><td>16</td></tr>
+          <tr><td>14</td></tr>
+        </tbody>
+      </table>
+      <p>Moyenne du groupe : <span id="moyenne"></span></p>
+      <p><input type="button" id="btnCalculerMoyenne" value="Calculer la moyenne"></p>
+    </div>
+
+    <div class="question">
+      <h1>Question 5</h1>
+      <p>JQuery UI - Champ date</p>
+      <p><input type="date" id="txtDateHTML5" placeholder="Date HTML 5"></p>
+      <p><input type="text" id="txtDate" placeholder="Date"></p>
+    </div>
+
+    <div class="question">
+      <h1>Question 6</h1>
+      <p>JQuery - Accordéon</p>
+      <accordeon>
+        <titre>Titre 1</titre>
+        <div>Comme les onglets, les accordéons apportent une touche de dynamisme et d'interactivité.</div>
+        <titre>Titre 2</titre>
+        <div>Ils permettent de proposer du contenu sans surcharger visuellement la page.</div>
+        <titre>Titre 3</titre>
+        <div>Les échanges avec le serveur sont également limités puisque tout est déjà présent dans la page.</div>
+        <titre>Titre 4</titre>
+        <div>
+          <p>Un contenu plus long</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum pharetra mauris, in scelerisque felis porttitor ac. Sed euismod mattis sem, at feugiat risus cursus vel. Vestibulum imperdiet et erat ultrices congue. Sed nisl tellus, condimentum id dui vitae, dignissim laoreet arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, interdum sit amet orci vitae, ultrices consectetur ipsum. Vestibulum ullamcorper, diam sed viverra aliquam, nunc magna imperdiet augue, quis sodales nisl eros sit amet quam. Duis venenatis eleifend nibh id dignissim. Quisque bibendum eleifend lorem, eu posuere arcu commodo eu. Proin eget turpis sed est tincidunt sodales. Aenean eu ornare enim. Quisque elementum, arcu eget rutrum rhoncus, odio nulla mattis risus, vitae placerat odio tellus ac justo. Fusce sit amet ex euismod, convallis mauris eget, consectetur augue. Fusce tempus leo sed dignissim consequat.</p>
+          <p>Praesent sit amet aliquam nisi. In id mi sed enim cursus luctus. Aenean viverra ex et sodales cursus. Ut ligula ipsum, pellentesque vel nulla at, pellentesque ornare erat. Nunc rutrum, sapien sit amet ornare dictum, enim ipsum elementum dui, vehicula feugiat nisl lectus quis ipsum. Ut pretium mauris est, ut lacinia justo dignissim eu. Vestibulum condimentum finibus risus a egestas. Donec tempor sapien id metus laoreet ultrices. Sed sem nisi, faucibus eu neque vitae, auctor sodales ex. Morbi non tempus lorem. Proin mattis dignissim augue, imperdiet vulputate quam iaculis vel. Morbi a arcu et felis tincidunt rutrum. Duis ullamcorper ac nisl at consectetur. Integer in quam est. Mauris convallis eget nunc vel maximus.</p>
+          <p>Vestibulum facilisis, purus sed posuere ornare, urna sem aliquet mauris, sit amet aliquam urna sapien ut felis. Curabitur eget sapien volutpat, lacinia orci sit amet, aliquam massa. Aliquam malesuada ipsum id velit sodales tincidunt. Mauris in lorem felis. Ut in pharetra velit, sed malesuada magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis a libero a ultricies. Nam tincidunt convallis est tincidunt tristique. Suspendisse eu felis id eros rutrum suscipit eget in ex. Morbi dignissim laoreet purus, at porttitor lacus tincidunt vitae. Fusce convallis iaculis ligula a vehicula.</p>
+        </div>
+      </accordeon>
+    </div>
+
+    <div class="question">
+      <h1>Question 7</h1>
+      <p>JQuery UI - Réagencement</p>
+      <ul id="agencable">
+        <li class="elementAgencable">Elément 1</li>
+        <li class="elementAgencable">Elément 2</li>
+        <li class="elementAgencable">Elément 3</li>
+        <li class="elementAgencable">Elément 4</li>
+        <li class="elementAgencable">Elément 5</li>
+        <li class="elementAgencable">Elément 6</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h1>Question 8</h1>
+      <p>JQuery UI - Drag & Drop</p>
+
+      <box id="pictures">
+        <picture class="imgSpider pasBien"></picture>
+        <picture class="imgCat bien"></picture>
+        <picture class="imgLumia bien"></picture>
+        <picture class="imgIPhone pasBien"></picture>
+        <picture class="imgForest bien"></picture>
+        <picture class="imgNuclear pasBien"></picture>
+      </box>
+      <box>
+        <p>Bien !</p>
+        <div class="picturesResult" id="surfaceBien"></div>
+      </box>
+      <box>
+        <p>Pas bien !</p>
+        <div class="picturesResult" id="surfacePasBien"></div>
+      </box>
+    </div>
+  </div>
+  <script src="lib/jquery.js" type="text/javascript"></script>
+  <script src="lib/jquery-ui.js" type="text/javascript"></script>
+  <script src="js/initialisation.js" type="text/javascript"></script>
+</body>
+</html>
